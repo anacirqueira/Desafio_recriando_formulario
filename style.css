@@ -58,7 +58,7 @@ form {
   
   background-color: #FFFF;
   border: 1px solid #E6E6F0;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 
 .fieldset-wrapper {
@@ -131,4 +131,41 @@ span {
   border: none;
 
   padding-bottom: 0;
+}
+
+footer {
+  background: #535971;
+
+  border-radius: 0 0 20px 20px;
+
+  height: 160px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+
+  width: 608px;
+
+  background: #FF5374;
+
+  border-radius: 20px;
+
+  font-family: 'Staatliches';
+
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+footer input:hover {
+  background: #e18698;
 }
