@@ -26,14 +26,20 @@ body::before {
 
 header {
   margin-top: 140px;
+  margin-bottom: 58px;
 }
 
-h1 {
-  font-family: 'Staatliches', cursive;
+header h1 {
+  font-size: 48px;
+  line-height: 60px;
+  font-family: 'Staatliches', sans-serif;
   color: #ffff;
 }
 
-p {
+header p {
+  font-size: 20px;
+  line-height: 30px;
+
   color: #ffff;
   margin-top: 18px;
 }
@@ -41,17 +47,35 @@ p {
 .page {
   width: 750px;
   margin: auto;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #4E4958;
 }
 
-fieldset {
-  margin: 64px
+form {  
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  padding: 64px;
+  
+  background-color: #FFFF;
+  border: 1px solid #E6E6F0;
+  border-radius: 20px;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+legend {
+  color: #535971;
+  font-size: 24px;
+  font-family: 'Staatliches';
+  line-height: 34px;
+  
+  border-bottom: 1px solid #E6E6F0;
+  
+  padding-bottom: 16px;
 }
 
 .input-wrapper {
@@ -64,29 +88,12 @@ fieldset {
 
   background: #FAFAFC;
 
+  padding-left: 24px;
+
   border: 1px solid #E6E6F0;
   border-radius: 8px;
-}
 
-form {
-  position: absolute;
-  width: 750px;
-  height: 1084px;
-  left: 345px;
-  top: 320px;
-
-  background-color: #FFFF;
-  border: 1px solid #E6E6F0;
-  border-radius: 20px;
-}
-
-legend {
-  color: #535971;
-  font-size: 24px;
-  font-family: 'Staatliches';
-  font-style: normal;
-  font-weight: 400;
-  line-height: 34px;
+  margin-top: 8px;
 }
 
 span {
@@ -94,4 +101,11 @@ span {
   line-height: 20px;
 
   color: #6f6e71;
+
+  margin-left: 8px;
+}
+
+.name-lastname {
+  display: flex;
+  gap: 22px;
 }

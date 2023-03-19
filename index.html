@@ -23,15 +23,17 @@
       <fieldset>
         <div class="fieldset-wrapper">
           <legend>Informações pessoais</legend>
-  
-          <div class="input-wrapper">
-            <label for="name">Nome</label>
-            <input type="text">
-          </div>
-  
-          <div class="input-wrapper">
-            <label for="last-name">Sobrenome</label>
-            <input type="text">
+          
+          <div class="name-lastname">
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input type="text" id="name">
+            </div>
+    
+            <div class="input-wrapper">
+              <label for="last-name">Sobrenome</label>
+              <input type="text" id="lastname">
+            </div>
           </div>
   
           <div class="input-wrapper">
@@ -43,6 +45,36 @@
             <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
             <input type="password" minlength="6">
           </div>
+        </div>
+      </fieldset>
+      
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações do Mentor</legend>
+        
+            <div class="input-wrapper">
+              <label for="name">Nome do seu mentor <span>(Só o pimeiro nome)</span></label>
+              <input type="text" id="name">
+            </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Seus horários disponíveis</legend>
+        
+            <div class="input-wrapper">
+              <label for="Date">Data</label>
+              <input type="date" id="date">
+            </div>
+            <div class="input-wrapper">
+              <label for="horario-inicio">Das</label>
+              <input type="" id="horario-inicio">
+            </div>
+            <div class="input-wrapper">
+              <label for="horario-fim">Até</label>
+              <input type="text" id="horario-fim">
+            </div>
         </div>
       </fieldset>
     </form>
