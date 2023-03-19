@@ -1,7 +1,6 @@
 # Desafio_recriando_formulario
 
 Projeto criado a partir do curso Explorer da Rocketseat, onde consiste em utilizar as tecnologias Html e CSS para recriar um formulário a partir de um layout disponibilizado no Figma.
-#
 
 <h2> Layout do formulário </h2>
 
