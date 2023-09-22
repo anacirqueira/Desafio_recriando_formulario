@@ -120,6 +120,7 @@ span {
 .data-hora {
   display: flex;
   gap: 20px;
+  padding: 2px;
 }
 
 .data-hora > div:nth-child(1) {
